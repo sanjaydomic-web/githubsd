@@ -1,0 +1,112 @@
+    body{
+        padding-top: 60px;
+        overflow-x : hidden;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    #demo{
+        position: relative;
+        
+    }
+    #amo {
+        position: absolute;
+        margin-top: -500px;
+        margin-left: 550px;
+        text-align: center;
+        color: orange;
+        font-size: 50px;
+        font-style: italic;
+        letter-spacing: 4px;
+        font-weight: 900;
+        
+    }
+    .idea {
+        position: relative;
+    }
+    .ae {
+        position: absolute;
+        color: white;
+        margin-top: -500px;
+        margin-left: 50px;
+    }
+
+    .box {
+        width: 1000px;
+        height: 180px;
+        background-color: black;
+        color: white;
+        border-radius: 10px
+    }
+
+    .nav-link.active{
+    color: lightblue;
+    border-bottom: 2px solid #0d6efd;
+    }
+
+    
+
+    
+
+    .lap{
+        position: relative;
+    }
+
+    
+
+    .top{
+        position: absolute;
+    }
+
+    .btn-buy{
+        background-color: yellow;
+        width: 250px;
+        height: 50px;
+    }
+
+    /* payment method */
+    .box-detail{
+        width: 1300px;
+        height: 600px;
+        border: 2px solid black;
+        background-color: grey;
+        position: relative;
+    }
+
+    .pay-close{
+        position: absolute;
+        font-size: 30px;
+        /* background: transparent; */
+        cursor: pointer;
+        top:10px;
+        left: 10px; 
+        
+    }
+
+    #detailImg{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .border{
+        margin-top: 100px;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .inner-content{
+        margin-top: 10px;
+    }
+
+    .review{
+        height: 70px;
+    }
+
+    @media (max-width: 991px) {
+    .nav-icons{
+        margin-top:10px;
+        justify-content: center;
+    }
+} 
